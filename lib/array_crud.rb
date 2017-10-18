@@ -2,8 +2,8 @@ def create_an_empty_array
   []
 end
 
-def create_an_array
-  colors = ["red", "blue", "orange", "yellow"]
+def create_an_array(colors)
+  ["red", "blue", "orange", "yellow"]
 end
 
 def add_element_to_end_of_array(array, element)
